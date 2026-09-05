@@ -1,24 +1,110 @@
 cff-version: 1.2.0
-title: MOB-ERA-GEE for multivariate longitudinal outcomes
+
+title: "MOB-ERA-GEE for Multivariate Longitudinal Outcomes"
+
 message: >-
-  If you use this software, please cite both the software and the
-  associated paper.
+  If you use this software, please cite both this software repository and the
+  associated article listed under preferred-citation.
+
 type: software
+
 authors:
   - family-names: Kim
     given-names: Sunmee
-    affiliation: University of Manitoba
-    orcid: ""
-repository-code: ""
+    affiliation: "University of Manitoba"
+    orcid: "https://orcid.org/0000-0003-3723-9974"
+
+repository-code: "https://github.com/QuantMM/MOB-ERA-GEE-Longitudinal-public"
+
 license: MIT
+
 abstract: >-
-  Fixed-component ERA-GEE for multivariate longitudinal outcomes, combined with
-  model-based recursive partitioning, together with the synthetic-data
-  validation suite for the method. All validation runs without access to the
-  empirical (CLSA) data.
+  Research software implementing a fixed-component longitudinal specialization
+  of ERA-GEE combined with model-based recursive partitioning (MOB) for detecting
+  subgroup heterogeneity in multivariate longitudinal intercept and slope
+  parameters. The repository includes seeded synthetic-data examples,
+  implementation checks, and simulation-based validation under the reference
+  design used for the accompanying empirical study. No Canadian Longitudinal
+  Study on Aging (CLSA) data are required or redistributed.
+
 keywords:
   - model-based recursive partitioning
+  - MOB
   - generalized estimating equations
+  - GEE
   - extended redundancy analysis
+  - ERA-GEE
   - longitudinal data
+  - multivariate outcomes
+  - parameter instability
   - subgroup heterogeneity
+
+preferred-citation:
+  type: article
+  title: >-
+    Modeling Intersectional Heterogeneity in Multidimensional Physical Activity
+    Trajectories Across Immigrant Groups: Evidence from the Canadian
+    Longitudinal Study on Aging
+  authors:
+    - family-names: Kim
+      given-names: Sunmee
+      affiliation: "University of Manitoba"
+      orcid: "https://orcid.org/0000-0003-3723-9974"
+  journal: "Frontiers in Sociology"
+  status: submitted
+
+references:
+  - type: article
+    title: >-
+      Pathway analysis of rare variants for the clustered phenotypes by using
+      hierarchical structured components analysis
+    authors:
+      - family-names: Lee
+        given-names: S.
+      - family-names: Kim
+        given-names: S.
+      - family-names: Kim
+        given-names: Y.
+      - family-names: Oh
+        given-names: B.
+      - family-names: Hwang
+        given-names: H.
+      - family-names: Park
+        given-names: T.
+    journal: "BMC Medical Genomics"
+    volume: 12
+    year: 2019
+    doi: "10.1186/s12920-019-0517-4"
+
+  - type: thesis
+    title: >-
+      Interpretable data reduction in prediction modeling: Extended redundancy
+      analysis and its extensions and applications
+    authors:
+      - family-names: Kim
+        given-names: Sunmee
+        affiliation: "McGill University"
+        orcid: "https://orcid.org/0000-0003-3723-9974"
+    year: 2020
+    thesis-type: "Doctoral dissertation"
+    publisher:
+      name: "McGill University"
+    number: "28384000"
+    notes: "ProQuest Dissertations and Theses Global"
+
+  - type: article
+    title: "Model-based recursive partitioning"
+    authors:
+      - family-names: Zeileis
+        given-names: Achim
+      - family-names: Hothorn
+        given-names: Torsten
+      - family-names: Hornik
+        given-names: Kurt
+    journal: "Journal of Computational and Graphical Statistics"
+    volume: 17
+    issue: 2
+    start: 492
+    end: 514
+    year: 2008
+    doi: "10.1198/106186008X319331"
