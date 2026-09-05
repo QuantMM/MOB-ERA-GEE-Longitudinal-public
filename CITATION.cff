@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: MOB-ERA-GEE for multivariate longitudinal outcomes
+message: >-
+  If you use this software, please cite both the software and the
+  associated paper.
+type: software
+authors:
+  - family-names: Kim
+    given-names: Sunmee
+    affiliation: University of Manitoba
+    orcid: ""
+repository-code: ""
+license: MIT
+abstract: >-
+  Fixed-component ERA-GEE for multivariate longitudinal outcomes, combined with
+  model-based recursive partitioning, together with the synthetic-data
+  validation suite for the method. All validation runs without access to the
+  empirical (CLSA) data.
+keywords:
+  - model-based recursive partitioning
+  - generalized estimating equations
+  - extended redundancy analysis
+  - longitudinal data
+  - subgroup heterogeneity
