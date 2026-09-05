@@ -121,11 +121,9 @@ a pure baseline difference could also produce apparent slope instability.
 The nuisance-adjusted slope score removes this intercept direction. As a result,
 the slope diagnostic is invariant to a shift in the time origin: rewriting
 
-\[
-\beta_1+\beta_2 t
-=
-(\beta_1+c\beta_2)+\beta_2(t-c)
-\]
+$$
+\beta_1 + \beta_2 t = (\beta_1 + c\beta_2) + \beta_2(t-c)
+$$
 
 changes the intercept parameterisation but not the slope. This invariance was
 verified numerically to approximately $10^{-13}$ in the synthetic checks.
