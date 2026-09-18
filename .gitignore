@@ -4,3 +4,8 @@ results/_*.rds
 .Rhistory
 .RData
 .Rproj.user/
+
+# empirical data and generated outputs
+empirical/CLSA Datafiles for analysis/
+empirical/DataPrep/out/
+*.csv
