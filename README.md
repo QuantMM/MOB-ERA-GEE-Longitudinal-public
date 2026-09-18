@@ -17,7 +17,7 @@ estimating equations (ERA-GEE): Integrating model-based recursive partitioning
 http://hdl.handle.net/1993/39920.
 
 > **Status.** Research code accompanying an applied article, not a
-> general-purpose R package. The release cited in the article is **v1.0.0**.
+> general-purpose R package. The release cited in the article is **v1.0.1**.
 
 ---
 
