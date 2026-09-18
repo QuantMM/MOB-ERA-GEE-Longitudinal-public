@@ -4,7 +4,7 @@ Code accompanying the article
 
 > Kim, S. *Migration, Social Position, and Multidimensional Physical Activity
 > Over Time: Findings from the Canadian Longitudinal Study on Aging.*
-> Frontiers in Sociology (submitted).
+> Frontiers in Sociology (to be submitted).
 
 The method combines extended redundancy analysis via generalized estimating
 equations (ERA-GEE) with model-based recursive partitioning (MOB) to detect
